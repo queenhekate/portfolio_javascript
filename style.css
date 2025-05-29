@@ -333,6 +333,19 @@ section {
   flex-direction: column;
 }
 
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.experience-list li {
+  list-style: none;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+}
+
 .article-container {
   display: flex;
   text-align: initial;
