@@ -379,9 +379,13 @@ article .icon {
 }
 
 .project-img {
+  width: 350px;
+  height: 250px;
+  object-position: center; /* Centers the image within the box */
+  object-fit: cover; /* Ensures images fill the box and crop if needed */
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  display: block;
+  margin: 0 auto;
 }
 
 .project-title {
